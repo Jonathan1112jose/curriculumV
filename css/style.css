@@ -1,0 +1,177 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.fondoI{
+	background-color: #CBCB1C;
+}
+
+.title{
+	font-family: fantasy;
+	font-size: 75px;
+	text-align:center;
+	margin: 15px;
+}
+
+.container{
+	background-color: #2dcdc9;
+	width: 90%;
+	margin:0px auto;
+	border: 1px solid black;
+}
+/*BARRA DE NAVEGACION DE LA PAGINA*/
+nav ul{
+	list-style: none;
+}
+nav li a{
+	font-size: 25px;
+	display: block;
+	text-decoration: none;
+	width: 350px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	border-right: 1px solid white;
+}
+nav li a:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+nav {
+	border-bottom:1px  solid black;
+	float: left;
+	width:100%;
+	height:50px;
+	background-color: gray;
+}
+
+.clean{
+	clear: both;
+}
+
+.article{
+	font-family: cursive;
+	font-size: 35px;
+}
+
+footer{
+	padding: 12px;
+	font-family: courier new;
+	text-align: center;
+	line-height: 10px;
+}
+/*LISTAS DE LOGROS*/
+.list{
+	list-style: none;
+	text-decoration: none;
+	font-size: 25px;
+	margin:10px;
+	padding: 25px;
+}
+.list li{
+	margin: 15px;
+}
+/*INICIO*/
+.home{
+	border: 1px solid black;
+	position: fixed;
+	top: 5px;
+	right: 75px;
+	background-color: gray;
+	line-height: 35px;
+	width: 150px;
+}
+.home a{
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 30px;
+}
+.home:hover{
+	background-color:#4CAF50; 
+} .home a:hover{
+	color:white;
+}
+/*SIGUIENTE PAGINA*/
+.next{
+	border: 1px solid black;
+	position: fixed;
+	bottom: 73px;
+	right: 75px;
+	background-color: gray;
+	line-height: 30px;
+	width: 180px;
+}
+.next a{
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 27px;
+}
+.next:hover{
+	background-color:#4CAF50; 
+	color: white;
+} .next a:hover{
+	color:white; 
+}
+/*PAGINA ANTERIOR*/
+.previous{
+	border: 1px solid black;
+	position: fixed;
+	top:5px;
+	left:75px;
+	background-color: gray;
+	line-height: 30px;
+	width: 180px;
+}
+.previous a{
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 27px;
+}
+.previous:hover{
+	background-color:#4CAF50; 
+	color: white;
+} .previous a:hover{
+	color:white; 
+}
+/*contactame*/
+.contac{
+	position: fixed; 
+	bottom: 50px; 
+	right: 100px; 
+	background-color: gray; 
+	border: 3px solid black;
+	text-decoration: none;
+}
+.contac a:hover{
+	color:white;
+	background-color: green;
+}
+
+.form{
+	background-color: lightblue;
+	border-color: black;
+	margin-top: 80px;
+	margin-left:40%;
+	width: 250px;
+	height: 300px;
+}
+.form input{
+	border: 2px solid black;
+	box-shadow: 9px;
+	margin: 3px;
+	margin-left: 40px;
+	padding: 3px;
+	text-align: center;
+	line-height: 20px;
+}
+.h2{
+	text-align: center;
+	font-family: calibri;
+	margin: 20px;
+}
+.h4{
+	text-align: center;
+	font-family: calibri;
+	margin: 5px;
+}
